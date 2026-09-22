@@ -1,0 +1,23 @@
+# Python bytecode và cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Môi trường ảo cục bộ
+venv/
+env/
+ENV/
+
+# File cấu hình bảo mật cá nhân (Tuyệt đối không đẩy lên Git)
+.env
+*.env.local
+
+# Thư mục bộ nhớ đệm tạm thời của Sandbox dự án tạo ra
+collective_sandbox_cache/
+
+# Hệ thống điều hành và IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
